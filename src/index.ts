@@ -32,3 +32,4 @@ export * from "./events/user-activated-event";
 export * from "./events/user-phone-number-updated-event";
 export * from "./events/user-profile-updated-event";
 export * from "./events/user-account-deleted-event";
+console.log("User profile updated");
