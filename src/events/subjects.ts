@@ -1,30 +1,30 @@
-export enum Subjects {
-  TicketCreated = "ticket:created",
-  TicketUpdated = "ticket:updated",
-
-  OrderCreated = "order:created",
-  OrderCancelled = "order:cancelled",
-
-  ExpirationComplete = "expiration:complete",
-
-  PaymentCreated = "payment:created",
-  // User
-  UserCreated = "user:created",
-  UserActivated = "user:activated",
-  UserPhoneNumberUpdated = "user:phone-number-updated",
-  UserProfileUpdated = "user:profile-updated",
-  UserAccountDeleted = "user:account-deleted-event",
-
-  // Category
-  CategoryDeleted = "category:deleted",
-  CategoryCreated = "category:created",
-  CategoryUpdated = "category:updated",
-  CategoryStatusUpdated = "category:status-updated",
-
-  IngredientCreated = "ingredient:created",
-  ExtraIngredientCreated = "extra-ingredient:created",
-  ModifierGroupCreated = "modifier-group:created",
-  SellerCreated = "seller:created",
-  KitchenCreated = "kitchen:created",
-  ProductCreated = "product:created",
+export declare enum Subjects {
+    TicketCreated = "ticket:created",
+    TicketUpdated = "ticket:updated",
+    OrderCreated = "order:created",
+    OrderCancelled = "order:cancelled",
+    ExpirationComplete = "expiration:complete",
+    PaymentCreated = "payment:created",
+    UserCreated = "user:created",
+    UserActivated = "user:activated",
+    UserPhoneNumberUpdated = "user:phone-number-updated",
+    UserProfileUpdated = "user:profile-updated",
+    UserPartnerUpdated = "user:partner-updated",
+    UserAccountDeleted = "user:account-deleted-event",
+    CategoryDeleted = "category:deleted",
+    CategoryCreated = "category:created",
+    CategoryUpdated = "category:updated",
+    CategoryStatusUpdated = "category:status-updated",
+    IngredientCreated = "ingredient:created",
+    ExtraIngredientCreated = "extra-ingredient:created",
+    ModifierGroupCreated = "modifier-group:created",
+    SellerCreated = "seller:created",
+    KitchenCreated = "kitchen:created",
+    ProductCreated = "product:created",
+    AlbumCreated = "album:created",
+    AlbumPhotoCreated = "album-photo:created",
+    EventCreated = "event:created",
+    EventPhotoCreated = "event-photo:created",
+    TimelineCreated = "timeline:created",
+    TimelinePhotoCreated = "timeline-photo:created"
 }

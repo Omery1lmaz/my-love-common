@@ -1,16 +1,13 @@
-// Re-export stuff from errors and middlewares
 export * from "./errors/bad-request-error";
 export * from "./errors/custom-error";
 export * from "./errors/database-connection-error";
 export * from "./errors/not-authorized-error";
 export * from "./errors/not-found-error";
 export * from "./errors/request-validation-error";
-
 export * from "./middlewares/current-user";
 export * from "./middlewares/error-handler";
 export * from "./middlewares/require-auth";
 export * from "./middlewares/validate-request";
-
 export * from "./events/base-listener";
 export * from "./events/base-publisher";
 export * from "./events/subjects";
@@ -32,4 +29,10 @@ export * from "./events/user-activated-event";
 export * from "./events/user-phone-number-updated-event";
 export * from "./events/user-profile-updated-event";
 export * from "./events/user-account-deleted-event";
-console.log("User profile updated");
+export * from "./events/album-created-event";
+export * from "./events/album-photo-created-event";
+export * from "./events/user-partner-updated-event";
+export * from "./events/event-created-event";
+export * from "./events/event-photo-created-event";
+export * from "./events/timeline-created-event";
+export * from "./events/timeline-photo-created-event";
