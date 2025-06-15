@@ -1,6 +1,6 @@
 {
   "name": "@heaven-nsoft/my-love-common",
-  "version": "1.2.19",
+  "version": "1.2.20",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
